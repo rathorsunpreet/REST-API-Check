@@ -36,6 +36,9 @@ hurl --test src\delete_requests.hurl
 
 # To execute complex.hurl, use
 hurl --test src\complex.hurl
+
+# To generate HTML Report, use
+hurl --test src\<tests>.hurl --report-html Report
 ```
 
 ## Note
