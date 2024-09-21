@@ -11,4 +11,4 @@ email: jsonpath "$.data[1].email"
 GET {{host}}/api/users/{{user_id}}
 HTTP 200
 [Asserts]
-jsonpath "$.data.email" contains "janet.weaver"
+jsonpath "$.data.email" contains "{{email}}"
