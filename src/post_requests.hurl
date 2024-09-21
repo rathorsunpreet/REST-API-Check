@@ -1,4 +1,4 @@
-# Use the command-line parameter --variables-file post.env
+# Use the command-line parameter --variables-file Resources\post.env
 # POST Requests
 # Create Endpoint
 POST {{host}}/api/users
